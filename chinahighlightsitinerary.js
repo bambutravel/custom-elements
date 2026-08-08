@@ -500,7 +500,7 @@ Finally, wander the Wide and Narrow Alleys, historic Qing era streets now filled
             printBtn.addEventListener('click', () => {
                 const items = this.querySelectorAll('.accordion-item input[type="radio"]');
                 items.forEach(input => { input.checked = true; });
-                window.print();
+                 print();
             });
         }
     }

@@ -21,7 +21,7 @@ class BaliItinerary extends HTMLElement {
                     margin: 0 auto !important;
                     padding: 1.5rem !important;
                     box-shadow: none !important;
-                    border: 1px solid #AE9A64 !important;
+                    border: 1px solid #AE9A64 !important;//
                     max-height: none !important;
                     overflow-y: visible !important;
                     background: #ffffff !important;
@@ -655,7 +655,7 @@ class BaliItinerary extends HTMLElement {
 
                 // Wait for DOM update, then print
                 setTimeout(() => {
-                    window.print();
+                    print();
                 }, 400);
             });
         }

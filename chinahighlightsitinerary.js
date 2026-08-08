@@ -506,5 +506,5 @@ Finally, wander the Wide and Narrow Alleys, historic Qing era streets now filled
     }
 }
 // ─── REGISTER THE CUSTOM ELEMENT ───
-customElements.define('chinahighlights-itinerary', ChinaItinerary);
+customElements.define('bambu-itinerary', ChinaItinerary);
 

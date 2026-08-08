@@ -662,5 +662,5 @@ class BaliItinerary extends HTMLElement {
     }
 }
 // ─── REGISTER THE CUSTOM ELEMENT ───
-customElements.define('bali-itinerary', BaliItinerary);
+customElements.define('bambu-itinerary', BaliItinerary);
 
